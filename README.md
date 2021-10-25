@@ -6,3 +6,5 @@
 - LSTM model for sign recognition was build using Keras and trained on dataset, that was collected during development (currently includes more than 5000 samples)
 - user guide and list of available signs are available in the UI
 - required libraries can be install using requirements.txt file
+
+Folder "for_model_training" includes scripts, that will allow you to create your own dataset.
