@@ -1,0 +1,47 @@
+import numpy as np
+
+actions = np.array([
+    'a',
+    'b',
+    'c',
+    'd',
+    'e',
+    'f',
+    'g',
+    'h',
+    'i',
+    'j',
+    'NaN',
+    'k',
+    'l',
+    'm',
+    'n',
+    'o',
+    'p',
+    'q',
+    'r',
+    's',
+    't',
+    'u',
+    'v',
+    'w',
+    'x',
+    'y',
+    'z',
+    'like',
+    'I(me)',
+    'thank you',
+    'eat',
+    'play',
+    'clothes',
+    'boots',
+    'motorcycle',
+    'your',
+    'need',
+    'model_start',
+    'model_stop',
+])
+
+colors = []
+for i in range(len(actions)):
+    colors.append(tuple(map(int, np.random.choice(range(256), size=3))))
