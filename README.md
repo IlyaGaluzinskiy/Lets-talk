@@ -8,4 +8,5 @@
 - required libraries can be installed using requirements.txt file
 
 Folder "for_model_training" includes scripts, that will allow you to create your own dataset.
-![Ilya (2)](https://user-images.githubusercontent.com/74296883/138877590-9a5fcda6-3d18-4f26-a1e3-8514ba03b43e.gif)
+
+![Ilya (3)](https://user-images.githubusercontent.com/74296883/138891986-08f1fd14-2428-4983-b23b-ef513d64a22e.gif)
