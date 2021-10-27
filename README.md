@@ -14,9 +14,9 @@ This project was completed in 10 days by:
 
 
 ![Ilya (3)](https://user-images.githubusercontent.com/74296883/138891986-08f1fd14-2428-4983-b23b-ef513d64a22e.gif)
-Interface:
-Top left corner of the screen - Top 3 signs that model predicts currently
-Top of the screen - list of detected and written signs
+- Interface:
+- Top left corner of the screen - Top 3 signs that model predicts currently
+- Top of the screen - list of detected and written signs
 
 ### The process of sign recognition consists of following steps:
 - Recieve video stream using OpenCV 
