@@ -5,6 +5,7 @@
 - Let's talk was created using [MediaPipe](https://github.com/google/mediapipe), [OpenCV](https://github.com/opencv/opencv), [Keras](https://github.com/keras-team/keras), [PyQt](https://github.com/qt)
 - LSTM model for sign recognition was built using Keras and trained on dataset, that was collected during development (currently includes more than 5000 samples)
 - Prediction model architecture: 3 LSTM layers with ReLU activation and a fully-connected output layer with softmax activation.
+- Categorical accuracy on validation set was greater than 95%.
 - User's guide and list of available signs are located in the UI
 
 ![Ilya (3)](https://user-images.githubusercontent.com/74296883/138891986-08f1fd14-2428-4983-b23b-ef513d64a22e.gif)
