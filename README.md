@@ -9,17 +9,6 @@
 - Categorical accuracy on validation set was greater than 95%.
 - User's guide and list of available signs are located in the UI.
 
-![Ilya (3)](https://user-images.githubusercontent.com/74296883/138891986-08f1fd14-2428-4983-b23b-ef513d64a22e.gif)
-
-### Main window UI
-![about-eng](https://user-images.githubusercontent.com/74296883/139196140-565145f3-912b-409c-b030-9ca62e99b47a.jpg)
-
-### "About" window. How to use Let's talk app
-![about](https://user-images.githubusercontent.com/74296883/139196277-6992934f-e793-42e5-8735-1259f4de489b.png)
-
-### "Available signs" window. Info about gestures that model can recognize + usefull links
-![available_signs](https://user-images.githubusercontent.com/74296883/139196345-8ded2f03-2cc5-476b-be7d-e84d20c2b2d4.png)
-
 ### The process of sign recognition consists of following steps:
 - Recieve video stream using OpenCV. 
 - Video frames are passed to MediaPipe Holistic model that detects hands, adds landmarks (21 landmarks per hand) and records their coordinates.
@@ -43,7 +32,3 @@ Folder "for_model_training" includes scripts that were used for creation of data
 - script 'train_LSTM_model' - includes necessary functions to procces the data and pass it to the model.
 
 
-#### This project was completed in 10 days by:
-- https://github.com/IlyaGaluzinskiy
-- https://github.com/plazinho
-- https://github.com/aabdysheva
